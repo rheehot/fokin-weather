@@ -14,16 +14,28 @@ export default function App() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+      flex: 1,
+      alignItems: "center",
+      justifyContent: "center"
   },
-  yellowView: {
-    flex: 1,
-    backgroundColor: "yellow"
-  },
-  buleView: {
-    flex: 1,
-    backgroundColor: "blue"
+  text : {
+      color: "black"
   }
-});
+})
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1
+//   },
+//   yellowView: {
+//     flex: 1,
+//     backgroundColor: "yellow"
+//   },
+//   buleView: {
+//     flex: 5,
+//     backgroundColor: "blue"
+//   }
+// });
