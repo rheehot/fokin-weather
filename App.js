@@ -1,30 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+// import { StyleSheet, Text, View } from 'react-native';
+import Loading from "./Loading";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <View style={styles.yellowView}>
-        <Text>Hello</Text>
-    </View>
-      <View style={styles.buleView}>
-        <Text>Hello</Text>
-      </View>
-    </View>
-  );
+  return <Loading />;
+  // return (
+  //   <View style={styles.container} >
+  //     <View style={styles.yellowView}/>
+  //     <View style={styles.buleView} />
+  //   </View>
+  // );
 }
-
-
-const styles = StyleSheet.create({
-  container: {
-      flex: 1,
-      alignItems: "center",
-      justifyContent: "center"
-  },
-  text : {
-      color: "black"
-  }
-})
 
 // const styles = StyleSheet.create({
 //   container: {
@@ -35,7 +21,7 @@ const styles = StyleSheet.create({
 //     backgroundColor: "yellow"
 //   },
 //   buleView: {
-//     flex: 5,
+//     flex: 1,
 //     backgroundColor: "blue"
 //   }
 // });
